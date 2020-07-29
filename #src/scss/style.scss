@@ -10,9 +10,22 @@
 
 @import "fonts.scss";
 
-body {
+.global-wrapper{
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
-div {
-    background: url("../img/bg.jpg") 0 0 repeat;
+// Основная сетка
+
+.container{
+    width: 100%;
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "PT Sans";
 }
